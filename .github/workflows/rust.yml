@@ -1,6 +1,8 @@
 name: Verify JNI completion on macOS
 
 on:
+  push:
+    branches: [ci/verify-jni-completion]
   workflow_dispatch:
 
 jobs:
